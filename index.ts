@@ -10,6 +10,13 @@ enum OutFormat {
     HEX16 = "HEX16"
 }
 
+/**Get the pixel color at your cursur
+ * 
+ * @param filePath fullscreenshot path default tmpPath
+ * @param fileName fullscreenshot name default timestamp
+ * @param outputFormat img output format HEX16 or RGB default HEX16
+ * @returns HEX16 or RGB 
+ */
 export default async function getPointPixelColor(
     filePath?: string,
     fileName?: string,
