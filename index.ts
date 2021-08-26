@@ -10,7 +10,7 @@ enum OutFormat {
     HEX16 = "HEX16"
 }
 
-/**Get the pixel color at your cursur
+/**Get the pixel color at your cursur position
  * 
  * @param filePath fullscreenshot path default tmpPath
  * @param fileName fullscreenshot name default timestamp
